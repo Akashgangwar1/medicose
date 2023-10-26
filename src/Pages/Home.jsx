@@ -1,21 +1,21 @@
 import React from 'react'
 
 import PharmacistData from "../Components/PharmacistData/PharmacistData"
-import Causel from '../Components/Crausel/Causel'
+import Carousel from '../Components/Crausel/Carousel'
 import Agency from '../Components/AgencyData/Agency'
 import Symtorms from './Symtorms'
-import Footer from './Footer'
+
 
 
 const Home = () => {
   return (
     <>
 
-      <Causel />
+      <Carousel />
       <Symtorms />
       <PharmacistData />
       <Agency />
-     <Footer />
+  
 
     </>
   )
