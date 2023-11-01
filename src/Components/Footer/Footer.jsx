@@ -9,29 +9,35 @@ import { AiOutlineTwitter } from "react-icons/ai";
 const Footer = () => {
   return (
     <>
-      <div className='text-white bg-black h-60 p-4  '>
+      <div className='text-white bg-slate-700  h-[20rem] md:h-60 sm:h-52 p-4 '>
 
-        <div className=' divide-y divide-solid divide-white'>
+        <div className=' divide-y divide-solid   md:justify-around divide-white'>
           <table className='text-center '>
             <tr className='text-center px-3  md:px-10'>
               <th className='px-3  md:px-10'>Tools</th>
               <th className='px-3  md:px-10'>Bussiness</th>
               <th className='px-3  md:px-10'>State</th>
+              <th className='px-3 md:px-10'> Help</th>
             </tr>
             <tr className=''>
               <td>Symturms Checker</td>
               <td>healthcare</td>
               <td>UP</td>
+              <td>Disclamer</td>
             </tr>
             <tr>
               <td>Medicines Information</td>
               <td>Hospitals</td>
               <td>UK</td>
+              <td>Privecy & plices</td>
             </tr>
             <tr>
               <td>Brand to salt checker</td>
               <td>industry</td>
               <td>Delhi</td>
+            </tr>
+            <tr>
+
             </tr>
           </table>
 

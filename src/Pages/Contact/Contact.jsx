@@ -9,7 +9,7 @@ const Contact = () => {
 
   return (
     <>
-<div className=' shadow-lg shadow-[#2596be] '>
+<div className=' shadow-md shadow-[#2596be] '>
   <img src={pills} alt="" />
 </div>
 
@@ -17,7 +17,7 @@ const Contact = () => {
   <h3 className='font-bold md:text-[44px]'>Contact Us Medicose </h3>
 </div>
 
-      <div className=' m-5 font-semibold rounded-md  bg-blue-100 md:inline-block md:absolute md:top-80 md:right-32'>
+      <div className=' m-5 font-semibold rounded-md  bg-blue-100 md:inline-block md:absolute md:top-80 md:right-32 z-20'>
         <h1 className=' rounded-sm text-[30px] mx-5   text-red-900  inline-block px-3 '>Contact Us</h1>
         <div>
           <div className=' p-2'>
@@ -40,7 +40,7 @@ const Contact = () => {
         </div>
       </div>
 
-<div className=' m-4 p-5  md:h-64 font-semibold'>
+<div className=' m-4 p-5  md:h-64 font-semibold border bg-[#f5f5f5]'>
   <h1>Address : Fateganj west (bareilly)</h1>
   <h1>Area: fateganj Apposite police choky & near Bank of baroda Atm </h1>
 </div>

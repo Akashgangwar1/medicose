@@ -1,24 +1,44 @@
 import React from 'react'
+import vikas from '../PharmacistData/vikas.jpeg'
 
 const PharmacistData = () => {
     return (
 
         <>
-            <div className=' bg-green-200 w-full h-80'>
 
-<div className='text-[44px] font-semibold text-center'> Our Pharamcists</div>
-                <div className='flex p-5  items-center'>
-                    <div className=' bg-green-300 box-border border-green-900 p-4 border-4  h-40 w-80 px-2 rounded-md mx-3 hover:scale-110 transition-all duration-200 '>
-                        <h3>Vikas Gangwar  </h3>
-                        <p>B.pharma ....  2 Year Expirence</p>
+            <div className=' bg-green-200 w-[100%] h-[35rem] md:h-[28rem]'>
+                <div className='font-bold text-[30px] text-center'>
+                    Our Pharamacists
+                </div>
+
+                < div class="flex md:gap-4  md:justify-evenly">
+                 
+
+                    <div className='border w-full border-black rounded-md m-4 p-3 md:flex '>
+                        <img className='rounded-md md:h-48 ' src={vikas} alt="" />
+                   
+                    
+                     <div className='hover:scale-105 md:m-7'>
+                        <h1 className=' font-semibold '>Vikas Gamgwar</h1>
+                        <h1 className='font-bold'>B.pharama </h1>
+                        <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui explicabo laborum ducimus?</p>
+                        </div>
                     </div>
-                    <div className='box-border border-green-900 p-4 border-4  h-40 w-80 px-2 rounded-md mx-3 hover:scale-110 transition-all duration-200'>
-                        <h3>Vikas Gangwar  </h3>
-                        <p>B.pharma ....  2 Year Expirence</p>
+                   
+
+                   
+                   
+                    <div className='border w-full border-black rounded-md m-4 p-3 md:flex'>
+                        <img className='rounded-md md:h-48 ' src={vikas} alt="" />
+                   
+                    
+                     <div className=' md:m-7 hover:scale-105'>
+                        <h1 className=' font-semibold '>Vikas Gamgwar</h1>
+                        <h1 className='font-bold'>B.pharama </h1>
+                        <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui explicabo laborum ducimus?</p>
+                        </div>
                     </div>
-                </div>  
-
-
+                </div>
             </div>
 
         </>

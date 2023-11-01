@@ -24,7 +24,7 @@ const Navbar = () => {
                     <h1>Medicose Pharma</h1>
                 </div>
 
-                <div className='absolute top-2 right-3 md:hidden cursor-pointer' onClick={Toggle}  > |||</div>
+                <div className='absolute  p-3 right-3 md:hidden cursor-pointer' onClick={Toggle}  > |||</div>
               
                 <div>
                     <ul className={`md:flex gap-8 px-4  bg-slate-700  md:static absolute w-full   ${Navbar ? "top-[45px]" : "-top-[140px]"}  transition-all duration-500 `}>
