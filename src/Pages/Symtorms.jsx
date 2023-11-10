@@ -15,7 +15,7 @@ const Symtorms = () => {
 
        
 
-          <div className='mx-5 absolute top-[13rem] md:top-64 mb-5'>
+          <div className='mx-5 absolute top-[30rem] md:top-[41rem] mb-5'>
             
             <button className='border-double border-green-500 border-4 p-2 rounded-md   hover:bg-green-500 '>Get Syphtoms Checker </button>
           </div>

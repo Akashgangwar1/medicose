@@ -19,7 +19,7 @@ const PharmacistData = () => {
                    
                     
                      <div className='hover:scale-105 md:m-7'>
-                        <h1 className=' font-semibold '>Vikas Gamgwar</h1>
+                        <h1 className=' font-semibold '>Vikas Gangwar</h1>
                         <h1 className='font-bold'>B.pharama </h1>
                         <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui explicabo laborum ducimus?</p>
                         </div>
@@ -33,7 +33,7 @@ const PharmacistData = () => {
                    
                     
                      <div className=' md:m-7 hover:scale-105'>
-                        <h1 className=' font-semibold '>Vikas Gamgwar</h1>
+                        <h1 className=' font-semibold '>Vikas Gangwar</h1>
                         <h1 className='font-bold'>B.pharama </h1>
                         <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui explicabo laborum ducimus?</p>
                         </div>
