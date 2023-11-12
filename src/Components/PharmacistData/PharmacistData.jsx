@@ -1,5 +1,6 @@
 import React from 'react'
 import vikas from '../PharmacistData/vikas.jpeg'
+import shivamimage from '../PharmacistData/shivamimage.jpeg'
 
 const PharmacistData = () => {
     return (
@@ -21,7 +22,7 @@ const PharmacistData = () => {
                      <div className='hover:scale-105 md:m-7'>
                         <h1 className=' font-semibold '>Vikas Gangwar</h1>
                         <h1 className='font-bold'>B.pharama </h1>
-                        <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui explicabo laborum ducimus?</p>
+                        <p className=''>Syphtom Checker is here to support you on your health journey</p>
                         </div>
                     </div>
                    
@@ -29,13 +30,13 @@ const PharmacistData = () => {
                    
                    
                     <div className='border w-full border-black rounded-md m-4 p-3 md:flex'>
-                        <img className='rounded-md md:h-48 ' src={vikas} alt="" />
+                        <img className='rounded-md md:h-48 ' src={shivamimage} alt="" />
                    
                     
                      <div className=' md:m-7 hover:scale-105'>
-                        <h1 className=' font-semibold '>Vikas Gangwar</h1>
+                        <h1 className=' font-semibold '>Shivam Yadav</h1>
                         <h1 className='font-bold'>B.pharama </h1>
-                        <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui explicabo laborum ducimus?</p>
+                        <p className=''>Syphtom Checker is here to support you on your health journey</p>
                         </div>
                     </div>
                 </div>

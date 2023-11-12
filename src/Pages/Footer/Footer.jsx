@@ -1,8 +1,10 @@
 import React from 'react'
+
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillFacebook } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
+
 
 
 
@@ -40,6 +42,7 @@ const Footer = () => {
 
             </tr>
           </table>
+          
 
           <div className='flex justify-between px-4 mt-5 pt-5'>
             <div>
@@ -54,6 +57,7 @@ const Footer = () => {
             </div>
 
           </div>
+         
         </div>
       </div>
     </>

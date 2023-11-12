@@ -6,7 +6,7 @@ const Symtorms = () => {
       <div className='bg-blue-200 w-full md:h-[20rem] h-[16rem] '>
         <div className='flex'>
           <div className='text-[12px] md:text-[25px] p-3'>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe eius eum, nam ex, assumenda nulla aspernatur modi blanditiis error illum possimus ducimus exercitationem debitis dolores ipsum atque voluptatem deserunt ipsam, animi earum?
+          Your health is our top priority. We are committed to providing accurate and up-to-date information to assist you in understanding your symptoms. We ensure that our platform is easy to use, reliable, and backed by credible medical resources.
           </div>
           <div className='  '>
             <img className='xl:h-72 xl:w-[28rem] ' src={doctor} alt="" />
@@ -17,7 +17,7 @@ const Symtorms = () => {
 
           <div className='mx-5 absolute top-[30rem] md:top-[41rem] mb-5'>
             
-            <button className='border-double border-green-500 border-4 p-2 rounded-md   hover:bg-green-500 '>Get Syphtoms Checker </button>
+            <button className='border-double border-green-500 border-4  rounded-md   hover:bg-green-500 '> <a className='p-2' href="https://symptomate.com/interview/0">Get Syphtoms Checker </a></button>
           </div>
           
        
