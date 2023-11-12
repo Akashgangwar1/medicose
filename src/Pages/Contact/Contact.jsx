@@ -21,22 +21,22 @@ const Contact = () => {
         <h1 className=' rounded-sm text-[30px] mx-5   text-red-900  inline-block px-3 '>Contact Us</h1>
         <div>
           <div className=' p-2'>
-            <input type="text" placeholder='Enter Your Frist  Name' className='border 4px border-solid border-red-400  shadow-lg shadow-red-400  px-3 w-full h-10 rounded-sm md:w-96' />
+            <input type="text" placeholder='Enter Your Frist  Name' className='border 4px border-solid border-red-400  shadow-md shadow-red-400  px-3 w-full h-10 rounded-sm md:w-96' />
           </div>
           <div className=' p-2'>
-            <input type="text" placeholder='Enter Your Secound  Name' className='border 4px border-solid border-red-400  shadow-lg shadow-red-400  px-3 w-full h-10 rounded-sm md:w-96' />
+            <input type="text" placeholder='Enter Your Secound  Name' className='border 4px border-solid border-red-400  shadow-md shadow-red-400  px-3 w-full h-10 rounded-sm md:w-96' />
           </div>
           <div className=' p-2'>
-            <input type="text" placeholder='Enter Your Mobile No.' className='border 4px border-solid border-red-400  shadow-lg shadow-red-400  px-3 w-full h-10 rounded-sm md:w-96' />
+            <input type="text" placeholder='Enter Your Mobile No.' className='border 4px border-solid border-red-400  shadow-md shadow-red-400  px-3 w-full h-10 rounded-sm md:w-96' />
           </div>
           <div className=' p-2'>
-            <input type="email" placeholder='Enter Your E-mail' className='border 4px border-solid border-red-400  shadow-lg shadow-red-400 w-full h-10 rounded-sm px-3  md:w-96' />
+            <input type="email" placeholder='Enter Your E-mail' className='border 4px border-solid border-red-400  shadow-md shadow-red-400 w-full h-10 rounded-sm px-3  md:w-96' />
           </div>
           <div className=' p-2'>
-            <input type="text" placeholder='Write Text' className='border 4px border-solid border-red-400  shadow-lg shadow-red-400 2px w-full  rounded-sm h-40  md:w-96 px-3' />
+            <input type="text" placeholder='Write Text' className='border 4px border-solid border-red-400  shadow-md shadow-red-400 2px w-full  rounded-sm h-40  md:w-96 px-3' />
           </div>
           <div className='mx-3'>
-            <button type='submit' className='  my-5 py-1 px-2 rounded-md border 4px border-solid border-red-400 bg-red-200 shadow-lg shadow-red-400  hover:bg-red-300'>Submit</button></div>
+            <button type='submit' className='  my-5 py-1 px-2 rounded-md border 4px border-solid border-red-400 bg-red-200 shadow-md shadow-red-400  hover:bg-red-300'>Submit</button></div>
         </div>
       </div>
 
